@@ -1,0 +1,155 @@
+
+.font-buxton{
+	font-family: "Buxton Sketch",cursive;
+}
+
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-10{
+	font-size: 10px;
+}
+
+.font-size-12{
+	font-size: 12px;
+}
+
+.font-size-14{
+	font-size: 14px;
+}
+
+.font-size-16{
+	font-size: 16px;
+}
+
+.font-size-18{
+	font-size: 16px;
+}
+
+.font-size-20{
+	font-size: 20px;
+}
+
+.font-size-24{
+	font-size: 24px;
+}
+
+
+header.masthead {
+	height: 100%;
+	padding-top: 10rem;
+	padding-bottom: calc(10rem - 4.5rem);
+	background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../assets/img/bg3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+header.masthead h1, header.masthead .h1 {
+	font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+	header.masthead {
+		height: 100vh;
+		min-height: 100%;
+		padding-top: 4.5rem;
+		padding-bottom: 0;
+	}
+	header.masthead p {
+		font-size: 1.15rem;
+	}
+	header.masthead h1, header.masthead .h1 {
+		font-size: 3rem;
+	}
+}
+@media (min-width: 1200px) {
+	header.masthead h1, header.masthead .h1 {
+		font-size: 3.5rem;
+	}
+}
+
+hr.divider {
+	height: 0.2rem;
+	max-width: 3.25rem;
+	margin: 1.5rem auto;
+	background-color: #d8aea2;
+	opacity: 1;
+}
+
+div.gallery{
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 5px;
+	text-align: left;
+}
+
+
+.grid-item {
+  float: left;
+}
+
+/* css for admin side nav bar*/
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	/*background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../assets/img/bg3.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
